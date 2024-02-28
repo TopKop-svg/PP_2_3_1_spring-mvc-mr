@@ -1,13 +1,10 @@
-package web.service;
+package web.dao;
 
-import org.springframework.stereotype.Service;
 import web.model.User;
 
 import java.util.List;
-@Service
-public class UserServiceImp implements UserService {
 
-
+public class UserDaoImp implements UserDao{
     @Override
     public void add(User user) {
 
